@@ -17,7 +17,7 @@ data Category = RoyalFlush
               | Pair
               | HighCard deriving (Eq, Show)
 ```
-
+Write a function `decide` that takes 5 dealt cards - `Hand` and returns a poker category in which it fits.
 ___________________________________________________________________________________________________________________________________________________________________________________
 **Base code**
 
