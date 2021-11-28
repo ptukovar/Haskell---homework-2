@@ -1,12 +1,21 @@
 # Poker
 Lets define a data types representing a deck of Poker cards. In Poker, a player gets 5 cards into the hand. Dealt hands are classified into several categories. These categories are important to define who is the winner. Rules for each category cen be found [Here](https://en.wikipedia.org/wiki/Poker)
 
-- TIP: Use the function `words` to split lines into sequence of words.
 ```haskell 
-words :: String -> [String]
-------------------------------------
-*Main> words "ABC cdef ghijkl"
-["ABC","cdef","ghijkl"]
+data Suit = Hearts | Clubs | Diamonds | Spades deriving (Eq, Show)
+data Rank = Numeric Int | Jack | Queen | King | Ace deriving (Eq, Show)
+data Card = Card Rank Suit deriving (Eq, Show)
+type Hand = [Card]
+data Category = RoyalFlush
+              | StraightFlush
+              | Four
+              | FullHouse
+              | Flush
+              | Straight
+              | Three
+              | TwoPair
+              | Pair
+              | HighCard deriving (Eq, Show)
 ```
 
 ___________________________________________________________________________________________________________________________________________________________________________________
