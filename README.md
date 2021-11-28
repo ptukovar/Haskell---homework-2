@@ -18,6 +18,9 @@ data Category = RoyalFlush
               | HighCard deriving (Eq, Show)
 ```
 Write a function `decide` that takes 5 dealt cards - `Hand` and returns a poker category in which it fits.
+```haskell
+decide:: Hand -> Category
+```
 ___________________________________________________________________________________________________________________________________________________________________________________
 **Base code**
 
