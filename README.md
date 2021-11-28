@@ -1,5 +1,5 @@
 # Crossword Answers
-Implement the function answers that takes as an input a crosword puzzle's solution and outputs all words from this solution. Words will be divided into two lists, first for lines (from left to right) and second for columns (from top to bottom). A word is written only if it is longer than just one character.
+Lets define a data types representing a deck of Poker cards. In Poker, a player gets 5 cards into the hand. Dealt hands are classified into several categories. These categories are important to define who is the winner. Rules for each category cen be found [a Here](https://en.wikipedia.org/wiki/Poker)
 
 - TIP: Use the function `words` to split lines into sequence of words.
 ```haskell 
