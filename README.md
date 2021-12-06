@@ -1,5 +1,5 @@
 # Poker
-Lets define a data types representing a deck of Poker cards. In Poker, a player gets 5 cards into the hand. Dealt hands are classified into several categories. These categories are important to define who is the winner. Rules for each category cen be found [Here](https://en.wikipedia.org/wiki/Poker)
+Lets define a data types representing a deck of Poker cards. In Poker, a player gets 5 cards into the hand. Dealt hands are classified into several categories. These categories are important to define who is the winner. Rules for each category can be found [Here](https://en.wikipedia.org/wiki/Poker)
 
 Write a function `decide` that takes 5 dealt cards - `Hand` and returns a poker category in which it fits.
 ```haskell
