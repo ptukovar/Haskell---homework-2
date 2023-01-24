@@ -36,6 +36,3 @@ Straight
 Prelude> decide [Card (Numeric 2) Hearts,Card (Numeric 5) Clubs,Card Ace Hearts,Card King Clubs,Card Jack Spades]
 HighCard
 ```
-
-
-***EDUCATIONAL PURPOSES ONLY***
